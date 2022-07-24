@@ -6,7 +6,7 @@ export default class Spinner extends Component {
     return (
       <div>
         <div className="spinnerContainer">
-            <span class="cssload-loader"><span class="cssload-loader-inner"></span></span>
+            <span className="cssload-loader"><span className="cssload-loader-inner"></span></span>
 
         </div>
       </div>

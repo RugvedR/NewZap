@@ -75,7 +75,7 @@ export class News extends Component {
   render() {
     return (
       <div className='container my-3' >
-        <h1 className='text-center' style={{marginTop: '100px', marginBottom:'20px'}} > <strong>NewZap</strong> - {(this.props.category)[0].toUpperCase()+(this.props.category).substring(1)}</h1>
+        <h1 className='text' style={{marginTop: '90px', marginBottom:'20px'}} > <strong>NewZap</strong> - {(this.props.category)[0].toUpperCase()+(this.props.category).substring(1)}</h1>
         {this.state.loading && <Spinner/>}
         <div className="row">
             {!this.state.loading && this.state.articles.map((element)=>{
