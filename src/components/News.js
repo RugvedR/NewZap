@@ -68,9 +68,9 @@ export class News extends Component {
                     <NewsItem title={element.title?element.title.slice(0,40):""} description={element.description?element.description.slice(0,80):""} imageUrl={element.urlToImage} newsUrl={element.url} />
                 </div>)
             })}
-            {/* <div className="col-md-4">
+            <div className="col-md-4">
                     <NewsItem title='hello' description='{element.description?element.description.slice(0,80):""}' imageUrl='{element.urlToImage}' newsUrl='{element.url}' />
-                </div> */}
+                </div>
              
         </div>
         <div className="container d-flex justify-content-between">
