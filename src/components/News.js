@@ -67,7 +67,7 @@ const News = (props)=> {
 
     return (
       <>
-        <h1 className='text newsHeader ' > <strong>NewZap</strong> - {(props.category)[0].toUpperCase()+(props.category).substring(1)}</h1>
+        <h1 className='text newsHeader ' > <strong>NewZap </strong> - {(props.category)[0].toUpperCase()+(props.category).substring(1)}</h1>
         {loading && <Spinner/>}
         <InfiniteScroll
           dataLength={articles.length}
